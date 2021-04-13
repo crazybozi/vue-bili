@@ -8,10 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@vant/weapp": "^1.6.8",
+=======
+>>>>>>> 1d4e3da6b6002bd21a05d80a12d1614be0e72476
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.1",
+    "taro-vant": "^1.0.11",
+    "vant": "^2.12.13",
     "vue": "^2.6.11",
     "vue-axios": "^3.2.4",
     "vue-router": "^3.2.0"
@@ -26,6 +31,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.4"
   }
 }
