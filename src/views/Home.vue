@@ -1,11 +1,18 @@
 <template>
-<h2>Home</h2>
+<div class="home">
+  <img alt="Vue logo" src="../assets/logo.png" />
+</div>
+
 </template>
 
 <script>
 
 export default {
   name: "Home",
-  components: {},
+  created() {
+    this.axios.get("http://localhost:3000/popular").then((res) => {
+      console.log(res.data);
+    });
+  },
 };
 </script>
